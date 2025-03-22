@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\4VV22EC074\LED\led_1.uvproj
+Project File Date:  02/14/2025
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling 1d.c...
+1d.c(16): warning:  #111-D: statement is unreachable
+        LPC_GPIO1->FIOCLR =  0x0AA00000;
+1d.c(22): warning:  #1-D: last line of file ends without a newline
+  }
+linking...
+Program Size: Code=1432 RO-data=236 RW-data=4 ZI-data=612  
+FromELF: creating hex file...
+".\led_1.axf" - 0 Error(s), 2 Warning(s).
+</pre>
+</body>
+</html>
+bol __ARM_use_no_argv multiply defined (by 1b.o and 1a.o).
+.\led_1.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by 1c.o and 1a.o).
+.\led_1.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by 1d.o and 1a.o).
+.\led_1.axf: Error: L6200E: Symbol main multiply defined (by 1b.o and 1a.o).
+.\led_1.axf: Error: L6200E: Symbol main multiply defined (by 1c.o and 1a.o).
+.\led_1.axf: Error: L6200E: Symbol main multiply defined (by 1d.o and 1a.o).
+.\led_1.axf: Error: L6200E: Symbol delay multiply defined (by 1d.o and 1c.o).
+Not enough information to list image symbols.
+Not enough information to list the image map.
+Finished: 2 information, 0 warning and 7 error messages.
+".\led_1.axf" - 7 Error(s), 3 Warning(s).
+Target not created
